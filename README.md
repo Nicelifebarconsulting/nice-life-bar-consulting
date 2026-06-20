@@ -14,7 +14,7 @@ npm run dev
 
 ## Form
 The contact form currently opens the visitor's email client with their answers
-pre-filled, addressed to nicelifeconsulting@gmail.com. To make it submit silently
+pre-filled, addressed to nicelifebarconsulting@gmail.com. To make it submit silently
 in the background instead, sign up at formspree.io, get a form endpoint, and swap
 the `mailto:` logic in `src/App.jsx` (function `handleSubmit` in the `Brief`
 component) for a `fetch()` POST to that endpoint.
