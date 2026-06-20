@@ -19,6 +19,6 @@ in the background instead, sign up at formspree.io, get a form endpoint, and swa
 the `mailto:` logic in `src/App.jsx` (function `handleSubmit` in the `Brief`
 component) for a `fetch()` POST to that endpoint.
 
-## Logo
+## Logo 
 The logo image lives at `public/logo.jpeg` and is referenced as `/logo.jpeg`
 in the code. Replace this file to update the logo.
